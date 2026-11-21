@@ -24,10 +24,6 @@ After the self-test finishes, an **interactive Serial menu** lets you run additi
 | `h` | Print the command menu |
 
 ## Wiring (`esp32dev` ↔ Core1121-HF)
-> **Safety Notes:**
-> - Power the Core1121-HF with **3.3 V only** (never 5 V).
-> - Keep a **Sub-GHz (`868/915 MHz`) IPEX-4 antenna** attached to `LORA_ANT` before transmitting.
-> - **Unplug USB power** before swapping between modules.
 | Core1121-HF Pin | ESP32 (`esp32dev`) Pin | Function |
 | :--- | :--- | :--- |
 | `3.3V` | `3V3` | 3.3 V power |
